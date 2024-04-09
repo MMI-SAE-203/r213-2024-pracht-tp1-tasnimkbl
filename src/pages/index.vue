@@ -1,7 +1,8 @@
 <script setup lang="ts">
-//
+const maVar = false 
 </script>
 
 <template>
-  <h1 class="text-2xl">Bonjour tout le monde !</h1>
+  <h1 v-show="maVar"
+  class="text-2xl">Bonjour tout le monde !</h1>
 </template>
