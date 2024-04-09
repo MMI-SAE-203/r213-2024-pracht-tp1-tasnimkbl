@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const maVar = false 
+const maVar = true 
 </script>
 
 <template>
